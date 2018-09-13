@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$("head").append("<link rel='stylesheet' type='text/css' href='/layout.css' />");
 	var h = $(window).height();
     console.log(h);
 	
