@@ -1180,7 +1180,7 @@ background-color: #fbe389;
 }
 .team_socials i{
    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
+    /*font: normal normal normal 14px/1 FontAwesome;*/
     font-size: 30px;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
