@@ -2323,6 +2323,10 @@ width: 70%;
 .social a {
     font-size: 13px;
     }
+.cl_text {
+    width: 100%;
+  margin:0 auto;
+}
 }
 
 
