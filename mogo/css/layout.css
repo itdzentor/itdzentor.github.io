@@ -2290,7 +2290,7 @@ width: 70%;
     font-size: 20px;
 }
     .client_img {
-    width: 170px;
+width: 100%;
     text-align: center;
     margin: 0 auto;
 }
