@@ -1,0 +1,2437 @@
+@import url("font-awesome.min.css");
+*{
+  font-family: "Droid Serif";  
+    color: #292929;
+    box-sizing: border-box;
+}
+@font-face{
+
+font-family: 'Droid Serif';
+
+src: url('../fonts/DroidSerif.ttf');
+    font-family: 'Gotham Pro';
+    
+src: url('../fonts/GothamPro.ttf');
+}
+
+nav {
+	box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+}
+.logo{
+} 
+.logo img{
+    height: 100%;
+    position: relative;
+top: -5px;
+    margin: 0 auto;
+}
+.logo_footer{
+    width:80px
+} 
+.logo_footer img{
+    position: relative;
+  padding-top: 15px;
+    margin: 0 auto;
+}
+.top_nav {
+	background: #ffffff;
+    font-style: normal;
+    font-size: 12pt;
+    font: "Droid Serif Regular";
+    color:#565555;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.top_nav i{
+  background: #ffffff;
+  color:#292929;
+}
+.top_nav a{
+    font-size: 12pt;
+    font: "Droid Serif Regular";
+    color: black;
+    list-style: none;
+    text-decoration:none;
+}
+.top h1{
+    font-size:25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ /* -------------------------------красная кнопка------------------------------- */
+.btn_red{
+font-size: 13.576px;
+  font-family: "Droid Serif";
+	padding: 8px 20px;
+	background:#e65540;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+     position: relative;
+    top:3px;
+    max-width: 190px;
+    border: 1px solid transparent;
+}
+
+.btn_red:hover{
+  background:#292929;
+   font-size: 13.576px;
+  font-family: "Droid Serif";
+	padding: 8px 20px;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+     position: relative;
+    top:3px;
+    max-width: 190px;
+    border: 1px solid transparent;}
+ /*------------------------------- черная кнопка слайдера------------------------------- */
+.btn-black{
+font-size: 15px;
+  font-family: "Droid Serif";
+	padding: 8px 20px;
+	background:#292929;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+  position: relative;
+margin-top: 20px;
+    float: right;
+    min-height: 60px;
+     min-width: 150px;
+     border: 1px solid transparent;
+    border-radius: 0px;
+}
+.btn-black:hover{
+	background:#e65540;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  font-size: 15px;
+  font-family: "Droid Serif";
+	padding: 8px 20px;
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+  position: relative;
+margin-top: 20px;
+    float: right;
+    min-height: 60px;
+     min-width: 150px;
+     border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+
+
+.navbar {
+    margin-bottom: 0px;}
+
+
+
+
+/*------------------------------- */
+.topbtn{
+}
+.right{
+    text-align: right;
+}
+.contact_info_f{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    padding: 8px;
+}
+.contact_info_f .fa {
+    color: white;
+}
+/*------------------------------- фон меню на весь экран черный------------------------------- */
+.bg{
+     background:#292929;
+}
+/*------------------------------- текст по центру шапка------------------------------- */
+.center{
+    text-align: center;
+}
+/* основная навигация */
+.main_nav {
+    font-size: 14px;
+  font-family: "DroidSerif-Bold";
+	list-style:none;
+	margin-top:0;
+	margin-bottom:0;
+	padding-left:0;
+	/*float:left;*/
+  line-height: 1.2;
+  text-align: center;
+    letter-spacing:0.5px;
+}
+
+.main_nav a:hover{
+ color:#858383;
+	cursor:pointer;
+}
+.main_nav a:current{
+ color:#9d9d9d;
+	cursor:pointer;
+}
+
+.main_nav>li>a {
+	display:block;
+	padding:23px;
+	color:#ffffff;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+.main_nav li {
+	/*float:left*/
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: inherit;
+    color: #777;
+}
+/*-------------------------------оформление текста курсивным шрифтом------------------------- */
+.text-suomi{
+    font-family:"Sonsie One";
+}
+/* слайдер */
+.slide {
+		
+}
+
+
+/*-------------------------------надпись на слайде the best in the city -----------------*/
+.textslidetop{
+   font-size: 10px;
+     color:#ffffff;
+  position: relative;
+  text-align: right;
+    margin-top: 20px;
+    
+}
+.textslide {
+   position: relative; 
+   
+}
+.textslide h2{
+   font-size: 60px;
+    font-family: "Droid Serif";
+    color: #ffffff;
+    line-height: 60px;
+    position: relative;
+    float: right;
+    right: 0px;
+    margin-top: 50px;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
+.main_slide {
+	    background-repeat: no-repeat;
+    background:url(); 
+    background-size: cover;
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    height: 703px;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 2%;
+    left: 15%;
+    bottom: 0%;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+/*---    background: linear-gradient(45deg, rgb(245, 59, 32), rgba(255, 237, 2, 0.31)), url(../img/slidemy.png);
+    background-blend-mode: multiply;
+    background-color: #ffca008c;---------background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url(../img/slidemy.png); 
+background-blend-mode: multiply;
+    background-color: #e65540;-------------------ЛЕВЫЙ ДИВ И ЕГО СОДЕРЖИМОЕ -----------------*/
+.wrep_bg{
+    background: url(../img/welcome_bg.jpg);
+    background-position: center 50%;
+    background-origin: content-box;
+    /* background-clip: content-box; */
+    background-size: cover;
+}
+.welcome{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.welcome button{
+    margin-top: 40px;
+  margin-left: 0px;
+}
+.welcome h2{
+
+  font-size: 60px;
+  font-family: "Droid Serif";
+  color: rgb(44, 45, 45);
+  text-transform: uppercase;
+ 
+  text-align: left;
+
+}
+.welcome h3{
+  font-size: 20px;
+  font-family: "Sonsie One";
+  color: rgb(230, 85, 64);
+  font-variant: small-caps;
+  line-height: 0.909;
+margin-bottom: -5px;
+}
+.welcome p{
+   font-family: "Droid Serif";
+      font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+   color:#77797a;
+}
+
+.left-i {
+/*background:url(../img/women.png);
+	background-position:center 50%;
+	background-origin:content-box;
+	background-clip:content-box; /*обрезка фона*/
+	/*background-size:cover; */
+	height:650px;
+	position:relative;
+   
+}
+.textp{
+    margin-bottom: 25px;
+    padding: 0px;
+     font-family: "Droid Serif";
+    font-size: 15px;
+    color: #77797a;
+    
+}
+.textp p{
+    padding: 1px;
+}
+/*-------------------------------ПРАВЫЙ ДИВ И ЕГО СОДЕРЖИМОЕ -----------------*/
+/*-------------------------------фото тренера -----------------*/
+.kam{
+    margin:80px 0px 10px 0px;
+}
+.kam img{
+  max-width: 350px;  
+}
+.right_d{
+  margin-bottom:60px;  
+}
+/*-------------------------------подписи -----------------*/
+.kam p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  font-weight: 700;
+ margin-left: 30px;
+    text-align:left;
+
+}
+
+/*-------------------------------подписи -----------------*/
+.work{
+    font-size: 15px;
+    text-align: right;
+    color:#77797a;
+}
+.name{
+  font-size: 13px;
+    text-align: right;
+    color:#77797a;
+    margin-top: 30px;
+}
+.red{
+    color:#e65540;
+    font-weight: 700;
+}
+/*-------------------------------Див черный и цифры -----------------*/
+.black{
+  background:#292929;
+
+}
+.text{
+  font-size: 16px;
+  color:#817f7f;
+  line-height: 1.2;
+text-align: center;
+}
+.margin{
+    margin:40px;
+}
+    
+.num{
+  font-size: 120px;
+  font-family: "Droid Serif";
+      color: rgba(255,255,255,0.1);
+    background: -webkit-linear-gradient(rgba(255,255,255,0.15) ,rgba(255,255,255,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  line-height: 1.2;
+margin-top: 30px;
+}
+.num-text {
+  font-size: 25px;
+  color: rgb(250, 250, 250);
+  line-height: 1.2;
+  text-align: center;
+    position: relative;
+    top:-53px;
+}
+.nums h3{
+   color:#e65540;
+     text-align: center;
+     font-size: 14px;
+    font-family:"Sonsie One";
+}
+/*-------------------------------Див черный и цифры -----------------*/
+.white{
+   margin:60px auto; 
+    text-align:center;
+}
+.white h3{
+    color:#e65540;
+     text-align: center;
+     font-size: 18px;
+    font-family:"Sonsie One"; 
+}
+.white h2{
+ color:black;
+     text-align: center;
+     font-size: 40px;
+  text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.white img{
+    width: 100%;
+}
+
+.imgclasess{
+   max-width: 300px;
+    margin: 0 auto;
+}
+.txtclasess{
+  text-align: center; 
+    margin: 15px 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.clasess{
+    min-height: 630px;
+     font-family: "Droid Serif";
+    font-size: 15px;
+    color: #77797a;
+}
+.clasess p{
+    font-family: "Droid Serif";
+    font-size: 15px;
+    color: #77797a;
+     min-height: 126px;
+}
+.btn{
+font-size: 13.576px;
+  font-family: "Droid Serif";
+	padding: 15px 20px;
+	background:#e65540;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+    min-width: 190px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+   
+}
+
+.btn:hover{
+  font-size: 14px;
+  font-family: "Droid Serif";
+	padding: 15px 20px;
+	background:#292929;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+    min-width: 190px;
+    border: 1px solid transparent;
+    border-radius: 0px; 
+   
+}
+.btn:active{
+  font-size: 14px;
+  font-family: "Droid Serif";
+	padding: 15px 20px;
+	background:#292929;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+    min-width: 190px;
+    border: 1px solid transparent;
+    border-radius: 0px; 
+   
+}
+.btn:focus{
+  font-size: 14px;
+  font-family: "Droid Serif";
+	padding: 15px 20px;
+	background:#292929;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+    min-width: 190px;
+    border: 1px solid transparent;
+    border-radius: 0px; 
+}
+
+
+.black h6{
+  
+  font-size: 24px;
+  font-family: "Droid Serif";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+margin:40px 0px;
+    margin-left: 50px;
+ 
+}
+.black form{
+margin-left: 100px;
+}
+
+.black form input[type="email"]{
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 1px; 
+   -moz-border-radius: 1px;
+   -khtml-border-radius: 1px;
+   outline: none; 
+   height: 41px; 
+   width: 220px; 
+   font-size: 15px; 
+    margin:35px 0px;
+}
+.black form input[type="submit"]{
+   font-size: 13.576px;
+  font-family: "Droid Serif";
+	padding: 7px 10px;
+	background:#e65540;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.573;
+  text-align: center;
+     min-height: 41px;
+    min-width: 90px;
+    border: 1px solid transparent;
+     margin:35px 0px;
+ 
+}
+input[placeholder] {
+     font-size: 15px;
+  font-family: "Droid Serif";
+    font-weight: 200;
+    
+  
+}
+.team{
+    margin: 0px auto;
+}
+.team p{
+    text-align: center;
+   margin: 0px;
+}
+
+.cvalifik{
+    margin-top: 15px;
+    font-size:17px;
+}
+.staff{
+    font-size:22px;
+  font-family: "Droid Serif";
+    padding: 5px; 
+    font-weight: 700;
+}
+.soc{
+    min-width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.icon_circle {
+	display:inline-block;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	background:#292929;
+    margin: 0 auto;
+}
+/*---
+.button{
+    margin:25px auto;
+}---*/
+
+.train1 img{
+    max-height: 294px;
+    max-width: 240px;
+    padding-bottom: 10px;
+}
+
+
+/*-------------------------------Див красный -----------------*/
+.divred{
+  background-image:url(../img/2.jpg);
+    background-blend-mode:multiply;
+    background-color:#e65540;
+	background-position:center 60%;
+	background-origin:content-box;
+	background-clip:content-box; /*обрезка фона*/
+	background-size:cover;
+	height:300px;
+	position:relative;
+}
+.divred h5{
+  font-size: 14px;
+  font-family: "Sonsie One";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+    margin: 40px auto;
+}
+
+.otz{
+  font-size: 20px;
+  font-family: "Droid Serif";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+margin: 30px auto;
+
+}
+.otzname{
+  font-size: 16px;
+  font-family: "Droid Serif";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  position: relative;
+    left:300px;
+
+}
+.map{
+    min-width: 100%;
+  background-blend-mode:multiply;
+    background-color:#e65540;
+}
+.map iframe{
+    width: 100%;
+    height: 200px;
+   
+}
+/*-------------------------------ФУТЕР-----------------*/
+.footer{
+    background-color:#000;
+ color: rgb(117, 114, 114);
+	font-size:1em;
+	position:relative;
+	bottom:0px;
+	width:100%;
+    padding-bottom: 10px;
+	}
+.footer	 i {
+	display:inline-block;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	text-align:center;
+color: rgb(117, 114, 114);
+padding-right:25px;
+        font-size: 18px;
+	
+}
+.footer a {
+color: rgb(117, 114, 114);
+	text-decoration:none;
+    font-size: 18px;
+}
+.footer .contact_info_f {
+	display:block;
+padding-top:6px;
+    color: rgb(117, 114, 114);
+	
+	
+}
+.footer	 .f_k {
+	font-size: 1.5em;
+	text-align: left;
+	padding-top: 15px;
+    color: rgb(117, 114, 114);
+}
+.footer	 .f_k1{
+    font-size: 1.5em;
+	
+	padding-top: 15px;
+    color: rgb(117, 114, 114);
+}
+.soc_f i{
+  	display:inline-block;
+	width:10px;
+	height:10px;
+
+	text-align:center;
+color: rgb(117, 114, 114);
+padding: 0 20px;
+    font-size: 25px;
+}
+span#error {
+	display: none;
+	font-size: 1.35em;
+	color: #9f4343;
+	font-weight: bold;
+	line-height: 1.4em;
+	margin-bottom: 8px;
+	margin-top: -8px;
+}
+/*-------------------------------конец ФУТЕРа-----------------*/
+
+/*-------------------------------оформление страницы клубы и руководство белый фон-----------------*/
+.white2{
+   margin:20px auto; 
+    text-align:center;
+}
+.white2 h3{
+    color:#e65540;
+     text-align: center;
+     font-size: 18px;
+    font-family:"Sonsie One"; 
+}
+.white2 h2{
+ color:black;
+     text-align: center;
+     font-size: 40px;
+  text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.white2 img{
+    width: 100%;
+}
+
+
+
+
+
+/*-------------------------------ВСПЛЫВАЮЩАЯ ФОРМА ЗАПИСИ ПОПАП!-----------------*/
+
+
+
+/**********All styles popup**********/
+.popup {
+padding:5px 15px 15px 15px;
+position:fixed;
+top:100px;
+left:50%;
+display:none;
+overflow:hidden;
+border:1px solid #ccc;
+background:#fff;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border-radius:15px;
+z-index:100;
+    margin: 0 auto;
+
+}
+.popup h2 {
+font-family: "Droid Serif";
+    font-size: 16px;
+        font-weight: 700;
+   
+}
+.popup a.close {
+width:16px;
+height:16px;
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:10px;
+right:10px;
+background:url(../img/close.png) no-repeat;
+}
+
+/**********popup with form**********/
+.reg_form {
+margin-left:-200px;
+width:400px;
+    font-weight: 700;
+    text-align: center;
+}
+.reg_form form {
+margin-top:10px auto;
+
+}
+.reg_form label {
+width:200px;
+height:26px;
+ font-family: "Droid Serif";
+display:inline-block;
+vertical-align:top;
+*display:inline;
+
+}
+.reg_form input[type=text], .reg_form input[type=password] {
+margin-bottom:10px;
+padding:0 3px;
+width:274px;
+height:30px;
+font-family: "Droid Serif";
+border:1px solid #ccc;
+
+}
+.reg_form input[type=submit] {
+font-size: 13.576px;
+  font-family: "Droid Serif";
+	padding: 8px 20px;
+	background:#e65540;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+    border-radius: 6px;
+    
+    border: 1px solid transparent;
+
+}
+.reg_form input[type=submit]:hover {
+color:#fff;
+}
+
+/**********popup with pictures**********/
+.photo_win {
+margin-left:-250px;
+width:500px;
+}
+.img_wrap {
+margin-top:10px;
+width:100%;
+overflow:hidden;
+}
+.img_wrap img {
+margin:0 10px 10px;
+height:187px;
+}
+
+/**********popup with tabs**********/
+.tabs_info {
+margin-left:-250px;
+width:500px;
+}
+/*tabs links*/
+.selectTabs {
+margin:10px 0 0;
+width:100%;
+}
+.lineTabs {
+width:100%;
+float:left;
+list-style:none;
+}
+.lineTabs li {
+margin:0 0 -1px 10px;
+float:left;
+position:relative;
+z-index:1;
+border:1px solid #ccc;
+}
+.lineTabs li.active {
+border-bottom:0px solid #fff;
+}
+.lineTabs li.active a {
+color:#cc0000;
+}
+.lineTabs a {
+padding:4px 15px;
+display:block;
+text-decoration:none;
+color:#000;
+font-weight:bold;
+font-size:10px;
+text-transform:uppercase;
+}
+/*tabs content*/
+.tab_content {
+width:100%;
+float:left;
+border:1px solid #ccc;
+-moz-border-radius:0 0 5px 5px;
+-webkit-border-radius:0 0 5px 5px;
+border-radius:0 0 5px 5px;
+position:relative;
+
+}
+.tab_content div{
+display:none;
+}
+.tab_content .tab1 {
+display:block;
+}
+.tab_content .tab1, .tab_content .tab2 {
+padding:10px 5px;
+}
+.tab_content img {
+margin:0 10px 5px 0;
+float:left;
+}
+
+/**********overlay styles**********/
+#overlay {
+width:100%;
+height:100%;
+position:fixed;
+top:0;
+left:0;
+display:none;
+background:#000;
+opacity:.8;
+}
+
+.form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.me{
+    position: relative;
+  /*  top:225px;*/
+    background: linear-gradient(to bottom, #d4d6d7 100%, transparent 50%);
+   top:115px;
+    
+   
+}
+.me p{
+   background:url(../img/close.png) no-repeat; 
+    position: relative;
+   
+  
+}
+#message{
+    display: none;
+}
+#message2{
+    display: none;
+}
+#message3{
+    display: none;
+}
+.message{
+    display: none;
+    position: relative;
+    top:-100px;
+    font-size: 17px;
+  font-family: "Droid Serif";
+    background-position: right 1%;
+    text-align: center; 
+  background: linear-gradient(to bottom, #d4d6d7 0%, transparent 100%);
+    padding: 20px;
+    
+   
+}
+.message h4{
+    font-weight: 600;
+    color:#e65540;
+    font-size: 20px;
+}
+.message a{
+    font-weight: 600;
+    color:#e65540;
+    text-decoration: none;
+}
+.message ul>li{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    margin:5px auto;
+    list-style:none;
+    text-align: center;
+}
+.message button{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 13.576px;
+    font-family: "Droid Serif";
+    padding: 5px 15px;
+    background: white;
+    text-decoration: none;
+    color: #e65540;
+    text-transform: uppercase;
+    line-height: 1.473;
+    text-align: center;
+    min-height: 50px;
+    position: relative;
+    top: 3px;
+    left: 25px;
+    min-width: 190px;
+    border: 1px solid #e65540;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.knopka{
+   
+}
+.non{
+    display: none;
+    
+}
+#n{
+ margin: 20px auto;
+    text-align: center;
+    font-size: 13.576px;
+  font-family: "Droid Serif";
+	padding: 5px 15px;
+	background:white;
+	text-decoration:none;
+    color: #e65540;
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+     position: relative;
+    top:3px;
+    left: 25px;
+    min-width: 190px;
+   border: 1px solid #e65540;
+	
+}
+#n2{
+ margin: 20px auto;
+    text-align: center;
+    font-size: 13.576px;
+  font-family: "Droid Serif";
+	padding: 5px 15px;
+	background:white;
+	text-decoration:none;
+    color: #e65540;
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+     position: relative;
+    top:3px;
+    left: 25px;
+    min-width: 190px;
+   border: 1px solid #e65540;
+	
+}
+
+
+/*-------------------------------classes min hieght p 168 div button margin btn margin -----------------*/
+.club{
+    margin-top: 50px;
+}
+/*------------------------------- КОНТАКТЫ!!! -----------------*/
+
+#map {
+	width: 100%;
+	height: 350px;
+}
+
+.gm-style-iw * {
+    display: block;
+    width: 100%;
+}
+.gm-style-iw h4, .gm-style-iw p {
+    margin: 0;
+    padding: 0;
+}
+.gm-style-iw a {
+    color: #e65540;
+}
+
+.contact_page{
+    background: #e3e3e3;
+    padding-top: 20px;
+}
+.contact_page h2{
+ color: black;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+.contacts {
+	padding: 10px 0 80px;
+}
+
+.contacts h3 {
+	color: #252525;
+	font-size: 2.5em;
+	padding-top: 15px;
+    padding-left: 20px;
+}
+
+#user_letter{
+	background: #fff;
+}
+
+#user_letter fieldset {
+	padding: 20px;
+}
+
+input, textarea {
+	width: 100%;
+	font-size: 1.2em;
+	border: none;
+	border-bottom: 2px solid #b8b8b8;
+	margin-top: 10px;
+}
+
+input:focus, textarea:focus {
+	border-bottom: 2px solid #e65540;
+}
+
+input.btn {
+	width: auto;
+	text-transform: uppercase;
+	border: 1px solid #e65540;
+	padding: 10px 20px;
+	font-family: "MyriadProBold";
+}
+
+.submit_btn {
+	background: #e65540;
+	color: #fff;
+	
+}
+
+.submit_btn:hover {
+	color: #fff;
+	background:#e65540;
+	border: 1px solid #e65540;
+}
+
+.reset_btn {
+	color: #e65540;
+	background: #fff;
+}
+
+.reset_btn:hover {
+	color: #e65540;
+	background: #fff;
+	border: 1px solid #e65540;
+}
+.info_contact {
+	padding: 20px;
+	font-size: 1.2em;
+	margin-top: 83px;
+    background: #fff;
+}
+
+.info_contact>li {
+	list-style: none;
+	padding-left:30px;
+	padding-top: 15px;
+	position: relative;
+}
+.info_contact i{
+	color: #e65540;
+	font-size: 1.2em;
+	position: absolute;
+	top: 15px;
+	left:0;
+
+}
+.sv {
+width:50px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top:40px;
+    margin: 0 auto;
+    right:150px;
+    }
+
+
+
+
+
+
+
+.btndisap{
+font-size: 13.576px;
+  font-family: "Droid Serif";
+	padding: 15px 20px;
+	background:#e65540;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+    min-width: 190px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+btndisap:hover{
+  font-size: 14px;
+  font-family: "Droid Serif";
+	padding: 15px 20px;
+	background:#292929;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+    min-width: 190px;
+    border: 1px solid transparent;
+    border-radius: 0px; 
+   
+}
+btndisap:active{
+  font-size: 14px;
+  font-family: "Droid Serif";
+	padding: 15px 20px;
+	background:#292929;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+    min-width: 190px;
+    border: 1px solid transparent;
+    border-radius: 0px; 
+   
+}
+btndisap:focus{
+  font-size: 14px;
+  font-family: "Droid Serif";
+	padding: 15px 20px;
+	background:#292929;
+	text-decoration:none;
+    color: rgb(251, 248, 248);
+  text-transform: uppercase;
+  line-height: 1.473;
+  text-align: center;
+     min-height: 50px;
+    min-width: 190px;
+    border: 1px solid transparent;
+    border-radius: 0px; 
+}
+
+#filosofy{
+    display: none;
+    position: relative;
+    top:-55px;
+    font-size: 17px;
+  font-family: "Droid Serif";
+    background-position: right 1%;
+  background: white;
+    padding: 20px;
+   
+}
+#filosofy button{
+   margin: 20px auto;
+    text-align: center;
+    font-size: 13.576px;
+    font-family: "Droid Serif";
+    padding: 5px 15px;
+    background: white;
+    text-decoration: none;
+    color: #e65540;
+    text-transform: uppercase;
+    line-height: 1.473;
+    text-align: center;
+    min-height: 50px;
+    position: relative;
+    top: 3px;
+    left: 25px;
+    min-width: 190px;
+    border: 1px solid #e65540; 
+}
+.navbar-default {
+ background-color:inherit; 
+ border-color:inherit;
+}
+ blockquote, q {
+    quotes: "" "";
+}
+
+blockquote {
+    position: relative;
+    line-height: 1.733em;
+    text-align: left;
+    padding: 0 .7em 0 2.45em;
+      font-size: 1em;
+}
+    blockquote p {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer i {
+    color: #fff;
+  
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+ border-color: black; 
+}
+
+@media screen and (max-width:600px) {
+     blockquote, q {
+    quotes: "" "";
+}
+
+blockquote {
+    position: relative;
+    line-height: 1.733em;
+    text-align: left;
+    padding: 0 .7em 0 2.45em;
+      font-size: 1em;
+}
+    blockquote p {
+    margin: 0;
+  
+    font-weight: 700;
+    text-transform: uppercase;
+}
+    .logo{
+        display: none;
+    }
+    .top_nav {
+   margin-top: 2px; 
+    margin-bottom: 5px;
+}
+    .logo img {
+    height: auto;
+  width: 100%;}
+    
+    .logo_footer img {
+    padding-top: 20px;}
+    .center {
+    text-align: ;
+        
+        text-align: center;
+}
+    .town{
+        font-size: 10px;
+    }
+    .contact{
+        font-size: 10px; 
+    }
+    .tkd{
+   text-align: center;
+        margin-bottom: 5px;
+    }
+    .top_nav a {
+    font-size: 9pt;
+    font: "Droid Serif Regular";
+    color: black;
+    list-style: none;
+    text-decoration: none;
+           
+}
+    .top h1 {
+    font-size: 19px;
+    margin: 0px;
+    padding: 0px;
+}
+    .right{
+       margin-top: -17px;  
+    }
+    .btn_red {
+   display: none;
+}
+    .btn_div{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .icon_circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #fff;
+    background: #292929;
+    margin: 0 auto;
+}
+    .main_nav li {
+ float: none;
+}
+  .main_nav>li>a {
+    display: block;
+    padding: 13px;
+    font-size: 8pt;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+    .bottom_nav{
+     
+    }
+    .navbar-default {
+ background-color:inherit; 
+ border-color:inherit;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    /* border: 1px solid transparent; */
+}
+
+nav {
+    /* box-shadow: 2px 2px 3px rgba(0,0,0,0.3); */
+}
+    .textslidetop, .member_job, .target h3 {
+            font-size: 10px;
+    color: #ffffff;
+    position: relative;
+    /* top: 50px; */
+    right: -50%;
+}
+.textslidetop {
+    display: none;
+     margin-top: 0px;
+}
+    .textslide {
+position: relative;
+ top: 0px; 
+           
+}
+    .left-i {
+height: 0px; 
+        position: relative;}
+    .textslide h2{
+     font-size: 15px;
+    font-family: "Droid Serif";
+    color: #ffffff;
+    line-height: 20px;
+    position: relative;
+    float: right;
+    /* text-align: center; */
+    text-align: right;
+        margin-top: -10px; 
+    }
+.btn-black {
+    font-size: 8px;
+    font-family: "Droid Serif";
+    padding: 1px;
+    background: #292929;
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+    /* text-transform: uppercase; */
+    /* line-height: 1.473; */
+    text-align: center;
+    /* position: relative; */
+    /* top: 0px; */
+    /* left: 0px; */
+    float: right;
+    /* text-align: right; */
+  min-height: 20px;
+    min-width: 110px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    margin-top: -15px;
+}
+    .btn-black:hover {
+    background:#e65540;
+    font-size: 8px;
+    font-family: "Droid Serif";
+    padding: 1px;
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+    min-height: 20px;
+    min-width: 110px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    margin-top: -15px;}
+    .main_slide {
+   height: 159px;
+    }
+.wrep_bg {
+    background: none;
+  background-size: inherit;
+    background-repeat: no-repeat;
+        background-position: 48% 46%;}
+    .left button {
+     margin-top:0; 
+   margin-left: 0; 
+        
+}
+    .welcome h2 {
+        font-size: 40px;}
+    .welcome {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    .welcome p {
+    font-family: "Droid Serif";
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #77797a;
+}
+    .right_d {
+    margin-bottom: 60px;
+    /* height: 500px; */
+  /* margin-top: 100px;*/
+    background-color: white;
+        text-align: center;}
+        .left-i {
+    height: 0px;
+    position: relative;
+}
+        .kam {
+ margin: 0px;
+}
+    .kam p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-align: left;
+}
+    .num {
+    font-size: 90px;
+    font-family: "Droid Serif";
+    color: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,.1);
+    background: -webkit-linear-gradient(rgba(255,255,255,.15),rgba(255,255,255,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+.num-text {
+    font-size: 15px;
+    color: rgb(250, 250, 250);
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    top: -43px;
+}
+  .vc_column-inner {
+   box-sizing: border-box; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    width: 100%; 
+}
+    .clasess {
+        min-height: 540px;}
+    .white h2 {
+        margin-bottom: 40px;
+        font-size: 29px;
+    }
+    .black form {
+    margin-left: 0px;
+}
+    .black h6 {
+    font-size: 24px;
+    font-family: "Droid Serif";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin: 20px 0px;
+    margin-left: 0px;
+}
+    .footer .contact_info_f {
+    display: block;
+    padding-top: 6px;
+    color: rgb(117, 114, 114);
+    font-size: 0.8em;
+}
+    .footer .contact_info_f {
+    font-size: 0.8em;
+}
+    .soc_f i {
+    display: inline-block;
+    /* width: 10px; */
+    /* height: 10px; */
+    /* text-align: center; */
+    color: rgb(117, 114, 114);
+padding: 0 1px;
+ font-size: 17px; 
+}
+    .contact_info_f .fa {
+    color: white;
+        font-size: 10px;
+}
+    .footer	i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    padding-right:19px;
+    font-size: 17px;
+   color: #fff;
+   
+}
+    .footer a {
+    color: rgb(117, 114, 114);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    background-color: rgba(255,255,255,.1);
+}
+    input, textarea {
+    
+ margin-top: 0px; 
+}
+    .black form input[type="submit"]{
+        vertical-align: baseline;
+            min-height: 42px;
+    }
+    .black form input[type="email"] {
+        border: none; 
+    max-width: 180px;}
+    .soc {
+        margin:0;
+    }
+    
+    .soc .fa-envelope{
+    background-color: black;
+        min-width: 30px;
+     min-height: 20px;
+            color: white;
+    padding: 5px;
+    }
+    .soc .fa-phone{
+    background-color: black;
+        min-width: 30px;
+     min-height: 20px;
+            color: white;
+    padding: 5px;
+    }
+ .red i{
+       color: #e65540;
+    }
+    .cvalifik {
+    margin-top: 15px;
+    font-size: 13px;
+        text-transform: uppercase;
+}
+    .contact_info_f {
+padding: 0px; 
+}
+    .team p {
+    text-align: center;
+    margin: 10px 0px;
+}
+    .train1{
+        min-height: 235px;
+            padding: 9px 0;
+    }
+    .train1 img {
+    vertical-align: middle;
+}
+    .name.cvalifik{
+        font-size: 10px;
+    }
+    .otz {
+        margin: 0px auto; 
+    }
+    .logo_footer {
+width:25%;
+}
+    .footer	.f_k1 {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 15px;
+    color: rgb(117, 114, 114);
+   min-height: 89px;
+}
+    .footer	.f_k {
+    font-size: 1em;
+    }
+     .black {
+ margin-left: 0px;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+    .black form {
+  margin-left: 0px;
+    }}
+
+@media screen and (min-width:600px) and (max-width:769px){
+    .main_nav>li>a {
+    font-size: 11px;
+        padding: 10px 15px;
+}
+    .navbar {
+    position: relative;
+ min-height:0px; }
+    .tkd{
+        width: 20%
+    }
+    .num-text {
+        font-size: 15px;}
+    .num {
+        font-size: 90px;}
+    .tkd h1{
+      font-size: 18px;  
+    }
+    .logo{width:80px}
+    .town{width:20%;
+        padding-top: 10px;
+    
+    
+    }
+    .contact{width:20%;
+    line-height: 0.9em;}
+    .btn_div{width:20%
+        
+    }
+    .contact_info{
+     margin-bottom: -2px;   
+    }
+    .btn {
+    font-size: 10px;
+    font-family: "Droid Serif";
+    padding: 15px 20px;
+    background: #e65540;
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+    text-transform: uppercase;
+    line-height: 1.473;
+    text-align: center;
+    min-height: 0px;
+    min-width: 140px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+    .top_nav{
+       font-size: 6pt; 
+    }
+    .top_nav a {
+        font-size: 8pt;
+}
+    .btn_red {
+    font-size: 9px;
+    min-height: 20px;
+    padding: 5px 10px;
+    background: #e65540;
+    position: relative;
+    top: 10px;
+    max-width: 120px;
+}
+    .btn_red:hover {
+    font-size: 9px;
+    min-height: 20px;
+    padding: 5px 10px;
+    background: цвет;
+    position: relative;
+    top: 10px;
+    max-width: 120px;
+}
+    
+    
+    
+    .top_nav i {
+    background: #ffffff;
+    color: #292929;
+    width: 10px;
+}
+    .textslidetop {
+
+margin-top: 0px;
+}
+    .textslide h2 {
+    font-size: 30px;
+    line-height: 30px;
+    position: relative;
+    float: right;
+    right: 0px;
+  margin-top: 0px;
+    padding: 10px;
+}
+    .btn-black {
+    font-size: 9px;
+    font-family: "Droid Serif";
+    padding: 5px 8px;
+    background: #292929;
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+    text-transform: uppercase;
+    line-height: 1.473;
+    text-align: center;
+    position: relative;
+    margin-top: 0px;
+    float: right;
+    min-height: 10px;
+    min-width: 100px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+    .btn-black:hover {
+    font-size: 9px;
+    font-family: "Droid Serif";
+    padding: 5px 8px;
+    background: #e65540;
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+    text-transform: uppercase;
+    line-height: 1.473;
+    text-align: center;
+    position: relative;
+    margin-top: 0px;
+    float: right;
+    min-height: 10px;
+    min-width: 100px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+    .wrep_bg {
+    background:none;
+}
+    .left-i {
+height: 0px; 
+    position: relative;
+}
+    ----
+      .wrep_bg {
+        margin-bottom: 20px;
+}
+    .left-i {
+    height: 0px;
+}
+    .welcome h2 {
+    font-size: 2.9em;
+    font-family: "Droid Serif";
+    color: rgb(44, 45, 45);
+    text-transform: uppercase;
+    text-align: left;
+}
+    .kam img {
+    max-width: 350px;
+    margin-bottom: 3em;
+}
+    .kam p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+   .welcome p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+       padding-right: 25%;
+}
+    blockquote, q {
+    quotes: "" "";
+}
+
+blockquote {
+    position: relative;
+    line-height: 1.733em;
+    text-align: left;
+    padding: 0 .7em 0 2.45em;
+      font-size: 1em;
+}
+    blockquote p {
+    margin: 0;
+  
+    font-weight: 700;
+    text-transform: uppercase;
+}
+    .welcome button {
+    margin-top: 10px;
+ margin-left: 0px;
+}
+    .staff {
+    font-size: 20px;
+    font-family: "Droid Serif";
+    padding: 5px;
+    font-weight: 700;
+}
+    .right_d {
+      width: 45%;  
+    }
+    .welcome {
+    margin-top: 60px;
+    margin-bottom: 60px;
+        width: 45%;
+}
+    .left-i {
+    height: 0px;
+    position: relative;
+}
+    .navbar-toggle {
+    display: none;
+}
+    .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+    .main_nav li {
+    float: left;
+    width: 24%;
+}
+    .center{
+       width: 25%;
+        float: left;
+    }
+    .clasess {
+    min-height: 430px;
+    font-family: "Droid Serif";
+    font-size: 15px;
+    color: #77797a;
+        width: 33%;
+        float: left;
+}
+    .clasess p {
+    font-family: "Droid Serif";
+    font-size: 12px;
+    color: #77797a;
+    min-height: 146px;
+}
+    .black {
+    background: #292929;
+    text-align: center;
+}
+    .black form {
+  margin-left: 0px; 
+}
+    .black h6 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0px;
+}
+    .footer	.f_k1 {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 15px;
+    padding-right: 10px;
+    color: rgb(117, 114, 114);
+    width: 28%;
+}
+    .soc_f{
+        width: 30%
+    }
+    .logo_footer{
+        width: 70px;
+    }
+    .con_f{
+         width: 30%
+    }
+    .footer a {
+    color: rgb(117, 114, 114);
+    text-decoration: none;
+    font-size: 1em;
+}
+    .footer	.f_k {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 15px;
+    color: rgb(117, 114, 114);
+}
+    .train1 img {
+    max-height: 224px;
+    max-width: 190px;
+    padding-bottom: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:769px) and (max-width:990px) {
+	.textslidetop, .member_job, .target h3 {
+		
+	}
+    .contact_info_f .fa {
+    color: white;
+    font-size: 10px;
+}
+    .black {
+ margin-left: 0px;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+    .black form {
+  margin-left: 0px;
+}
+    .black h6 {
+    font-size: 24px;
+    font-family: "Droid Serif";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin: 20px 0px 0 0;
+    margin-left: 0px;
+}
+    .num {
+       font-weight: 700;
+    font-size: 9em;
+    line-height: 1em;
+    margin: 0;
+    text-align: center;
+}
+    .red i{
+            color: #e65540;
+    }
+    .clasess p {
+    font-family: "Droid Serif";
+    font-size: 15px;
+    color: #77797a;
+    min-height: 226px;
+}
+      .num-text  {
+         font-size: 1.5em;
+    text-transform: none;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 700;
+        top: -33px;}
+.top h1 {
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -30px;
+}
+	.job_description, .target p {
+		font-size: 1em;
+	}
+
+	.footer_col {
+		padding-right: 0;
+		padding-left: 15px;
+	}
+	
+	.logo_svg {
+		width:200px;
+	}
+    
+    .town {
+    font-size: 9px;
+    margin-top: 10px;
+}
+    .textslide h2 {
+    font-size: 40px;
+    font-family: "Droid Serif";
+    color: #ffffff;
+    line-height: 40px;
+    position: relative;
+    float: right;
+    right: 0px;
+    margin-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px;
+}
+    .textslidetop {
+    font-size: 10px;
+    color: #ffffff;
+    position: relative;
+    text-align: right;
+    margin-top: -10px;
+}
+    
+    .btn-black {
+    font-size: 12px;
+    margin-top: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    border-radius: 5px;
+}
+    .btn-black:hover {
+    font-size: 12px;
+    margin-top: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    border-radius: 5px;
+        background-color: #e65540;
+}
+    
+    .wrep_bg {
+background: none; 
+        margin-bottom: 20px;
+}
+    .left-i {
+    height: 0px;
+}
+    .welcome h2 {
+    font-size: 2.9em;
+    font-family: "Droid Serif";
+    color: rgb(44, 45, 45);
+    text-transform: uppercase;
+    text-align: left;
+}
+    .kam img {
+    max-width: 350px;
+    margin-bottom: 3em;
+}
+    .kam p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+   .welcome p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+       padding-right: 25%;
+}
+    blockquote, q {
+    quotes: "" "";
+}
+
+blockquote {
+    position: relative;
+    line-height: 1.733em;
+    text-align: left;
+    padding: 0 .7em 0 2.45em;
+      font-size: 1em;
+}
+    blockquote p {
+    margin: 0;
+  
+    font-weight: 700;
+    text-transform: uppercase;
+}
+    .welcome button {
+    margin-top: 10px;
+ margin-left: 0px;
+}
+    .staff {
+    font-size: 20px;
+    font-family: "Droid Serif";
+    padding: 5px;
+    font-weight: 700;
+}
+ .footer .f_k1 {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 15px;
+    padding-right: 10px;
+    color: rgb(117, 114, 114);
+    width: 28%;
+}
+    .soc_f{
+        width: 30%
+    }
+    .logo_footer{
+        width: 70px;
+    }
+    .con_f{
+         width: 30%
+    }
+    .footer a {
+    color: rgb(117, 114, 114);
+    text-decoration: none;
+    font-size: 1em;
+}
+    .footer	.f_k {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 15px;
+    color: rgb(117, 114, 114);
+}
+  
+}
+
+    
+    
+    
+    
+    @media screen and (min-width:990px) and (max-width:1120px) {
+ .soc_f i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 25px;
+}
+    .btn-black {
+    font-size: 15px;
+ margin-top: 0px;
+ min-height: 0px; 
+    min-width: 150px;
+        }
+        
+    
+        
+     .btn-black:hover {
+    font-size: 15px;
+ margin-top: 0px;
+ min-height: 0px; 
+    min-width: 150px;
+         background-color:#e65540;  
+        }   
+        
+        
+        
+        
+        
+        
+        
+.contact_info_f .fa {
+    color: white;
+    font-size: 19px;
+}
+    .black {
+ margin-left: 0px;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+    .black form {
+  margin-left: 0px;
+}
+    .black h6 {
+    font-size: 24px;
+    font-family: "Droid Serif";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+ margin: 40px 0px;
+    margin-left: 0px;
+}
+    .num {
+       font-weight: 700;
+    font-size: 9em;
+    line-height: 1em;
+    margin: 0;
+    text-align: center;
+}
+    .red i{
+            color: #e65540;
+    }
+    .clasess p {
+    font-family: "Droid Serif";
+    font-size: 15px;
+    color: #77797a;
+    min-height: 136px;
+}
+      .num-text  {
+         font-size: 1.5em;
+    text-transform: none;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 700;
+        top: -33px;}
+.top h1 {
+    margin-left: 0px;
+}
+	.job_description, .target p {
+		font-size: 1em;
+	}
+
+	.footer_col {
+		padding-right: 0;
+		padding-left: 15px;
+	}
+	
+	.logo_svg {
+		width:200px;
+	}
+    
+    .town {
+    font-size: 9px;
+    margin-top: 10px;
+}
+    .textslide h2 {
+    font-size: 40px;
+    font-family: "Droid Serif";
+    color: #ffffff;
+    line-height: 40px;
+    position: relative;
+    float: right;
+    right: 0px;
+    margin-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px;
+}
+    .textslidetop {
+    font-size: 10px;
+    color: #ffffff;
+    position: relative;
+    text-align: right;
+    margin-top: -10px;
+}
+    .btn-black {
+    font-size: 12px;
+    margin-top: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    border-radius: 5px;
+}
+           
+        .btn-black:hover {
+    font-size: 12px;
+    margin-top: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    border-radius: 5px;
+            background-color:#e65540; 
+} 
+        
+        
+    .wrep_bg {
+        margin-bottom: 20px;
+}
+    .left-i {
+    height: 0px;
+}
+    .welcome h2 {
+    font-size: 2.9em;
+    font-family: "Droid Serif";
+    color: rgb(44, 45, 45);
+    text-transform: uppercase;
+    text-align: left;
+}
+    .kam img {
+    max-width: 350px;
+    margin-bottom: 3em;
+}
+    .kam p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+   .welcome p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+       padding-right: 25%;
+}
+    blockquote, q {
+    quotes: "" "";
+}
+
+blockquote {
+    position: relative;
+    line-height: 1.733em;
+    text-align: left;
+    padding: 0 .7em 0 2.45em;
+      font-size: 1em;
+}
+    blockquote p {
+    margin: 0;
+  
+    font-weight: 700;
+    text-transform: uppercase;
+}
+    .welcome button {
+    margin-top: 10px;
+ margin-left: 0px;
+}
+    .staff {
+    font-size: 20px;
+    font-family: "Droid Serif";
+    padding: 5px;
+    font-weight: 700;
+}
+    }
+@media screen and (min-width:1500px) {
+    
+    
+    .textslide h2{
+        font-size: 75px;
+        line-height: 70px;
+    }
+}
