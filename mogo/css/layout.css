@@ -1,3 +1,28 @@
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Tahoma, sans-serif;
+  line-height: 1;
+  background-color: #ffffff;
+  height: 100%;
+  position: relative;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding-top: 25px;
+font-family: 'Montserrat', sans-serif;
+}
 /* NORMALIZE */
 ul{
 margin: 0;
@@ -381,30 +406,6 @@ img.mfp-img {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
-}
-
-
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: Arial, Tahoma, sans-serif;
-  line-height: 1;
-  background-color: #ffffff;
-  height: 100%;
-  position: relative;
-  font-size: 14px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-header {
-  color: #fff;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-  padding-top: 25px;
-font-family: 'Montserrat', sans-serif;
 }
 .hamburger {
   float: right;
@@ -2293,7 +2294,7 @@ width: 70%;
     font-size: 20px;
 }
     .client_img {
-    width: 170px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
 }
@@ -2326,6 +2327,10 @@ width: 70%;
 .social a {
     font-size: 13px;
     }
+    .cl_text {
+    width: 100%;
+  margin:0 auto;
+}
 }
 
 
