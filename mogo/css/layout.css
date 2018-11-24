@@ -1815,12 +1815,18 @@ img.mfp-img {
 
 @media only screen and (max-width: 1200px) {
   .banner_text .original{
-    margin-bottom: 14px;
+    margin-bottom: 10px;
   }
 
   .banner_text .lg_text {
-    font-size: 110px;
+    font-size: 80px;
   }
+    .banner h1 {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
 }
 
 
